@@ -59,7 +59,6 @@ _Note: Git will continue to stage the file, even if it's deleted. If a staged fi
         * Alternatively, `git commit -m "<message>"` bypasses the editor entirely
 
 ## Branches
- __This section may be incomplete in time for the Git workshop on Feb 25th.__
 
 Branches are very powerful, but may not be necessary if you're just using Git to keep your code backed up. A good usecase for branches are 
 1) if you're making a change that would potentially break `master`, and you want to keep `master` "clean" as the working version or 
@@ -89,7 +88,6 @@ Much like the command `diff`, `git diff` can provide information on the differen
 * `git diff <branch1> <branch2>` see diff between branches                        
 
 ## Working with remote repositories
- __This section may be incomplete in time for the Git workshop on Feb 25th.__
 
  Adding and committing files works even if you're not syncing with a remote repository, allowing for a local "track changes" of your code (which can be useful!). However, the power of Git comes from being able to publish your code online and work collaboratively.
 
